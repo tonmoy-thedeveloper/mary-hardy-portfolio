@@ -162,3 +162,49 @@ nav {
   font-weight: 700;
   line-height: 30px;
 }
+
+/* Skills section styles start from here */
+#skills {
+  margin: 0 250px;
+}
+#skills .section-heading {
+  text-align: center;
+}
+.section-heading h3 {
+  color: #181818;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.section-heading p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 30px;
+  width: 900px;
+  margin-inline: auto;
+}
+.card-container {
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+}
+.card {
+  padding: 30px 34px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.card h4 {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 30px 0 20px 0;
+}
+.card p {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
