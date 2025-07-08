@@ -22,8 +22,29 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+.btn-primary, .btn-outline {
+  padding: 20px 16px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btn-outline{
+  background-color: transparent;
+  border: 1px solid #FD6E0A;
+  color: #FD6E0A;
+}
 header {
-  background-color: #fff8f3;
+  background: url(../images/developer.png), url(../images/header_bg.png),
+    #fff8f3;
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 }
 /* Navbar style start from here */
 nav {
@@ -31,6 +52,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 50px 0;
+  margin: 0 250px;
 }
 .logo {
   font-size: 44px;
@@ -62,4 +84,37 @@ nav {
   padding: 20px 40px;
   text-transform: capitalize;
   cursor: pointer;
+  border: none;
+}
+
+/* Hero section styles start from here */
+#hero-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 60px 0 250px;
+}
+.hero-content h2 {
+  color: #474747;
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.hero-content h1 {
+  color: #181818;
+  font-size: 86px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.hero-content p {
+  width: 585px;
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.btn-container{
+  display: flex;
+  gap: 30px;
 }
