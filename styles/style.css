@@ -22,7 +22,8 @@ body {
   width: 90%;
   margin: 0 auto;
 }
-.btn-primary, .btn-outline {
+.btn-primary,
+.btn-outline {
   padding: 20px 16px;
   border-radius: 5px;
   background: #fd6e0a;
@@ -35,10 +36,10 @@ body {
   align-items: center;
   gap: 10px;
 }
-.btn-outline{
+.btn-outline {
   background-color: transparent;
-  border: 1px solid #FD6E0A;
-  color: #FD6E0A;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
 }
 header {
   background: url(../images/developer.png), url(../images/header_bg.png),
@@ -114,7 +115,50 @@ nav {
   line-height: 30px;
   margin-bottom: 30px;
 }
-.btn-container{
+.btn-container {
   display: flex;
   gap: 30px;
+}
+
+/* About section styles start from here */
+#about {
+  background: #fff8f3;
+  margin: 130px 250px;
+  padding: 130px 150px;
+  border-radius: 10px;
+  text-align: center;
+}
+.about-content {
+  background: #fff;
+  border: 1px solid #000;
+}
+.about-content h3 {
+  color: #181818;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.about-content > p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 30px 0;
+}
+.about-content .details {
+  display: flex;
+  justify-content: space-around;
+}
+.details .item h4 {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+.details .item p {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
 }
